@@ -8,5 +8,3 @@ Deployment is automated via **GitHub Actions**, which builds the Hugo site and u
 A **mirror site of the original site** is also pushed to a **GitHub Pages** repository, serving as a public backup and alternative hosting source, which you can see [here](https://cassivsgabriellis.github.io/).
 
 This setup ensures performance, TLS security, continuous deployment, and redundancy between AWS and GitHub Pages.
-
-#### [www.foliocassianico.com.br](www.foliocassianico.com.br)
