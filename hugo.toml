@@ -84,13 +84,13 @@ theme = "preferred_color_scheme"
 ###################################
 
 # Deploy config
-[deployment]
-[[deployment.targets]]
-name = 'production'
-url = 's3://foliocassianico.com?region=sa-east-1'
+# [deployment]
+# [[deployment.targets]]
+# name = 'production'
+# url = ''
 
 # If using CloudFront CDN, deploy will invalidate the cache as needed.
-cloudFrontDistributionID =	"E2NSG34ZM98NK3"
+# cloudFrontDistributionID = ''
 
 [[deployment.matchers]]
 # Cache static assets for 20 years.
