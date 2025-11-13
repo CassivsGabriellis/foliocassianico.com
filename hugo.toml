@@ -38,9 +38,6 @@ paginationSize = 100
 listSummaries = true
 listDateFormat = '2 Jan 2006'
 
-[frontmatter]
-date = [':filename', ':default']
-
 # Breadcrumbs
 [params.breadcrumbs]
 enabled = true
@@ -65,9 +62,9 @@ url = "/"
 name = "projects"
 url = "/projects"
 
-# [[params.menu]]
-# name = "posts"
-# url = "/posts"
+[[params.menu]]
+name = "posts"
+url = "/posts"
 
 # [[params.menu]]
 # name = "bio"
@@ -76,7 +73,7 @@ url = "/projects"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
-style = 'algol'
+style = 'catppuccin-macchiato'
 
 # Giscus comments
 [params.giscus]
