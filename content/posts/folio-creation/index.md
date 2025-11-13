@@ -5,6 +5,7 @@ date = 2025-11-13
 toc = true
 readTime = true
 autonumber = true
+tags = ["web-architecture", "system-design"]
 +++
 
 ## Purpose of this Site
@@ -147,13 +148,11 @@ The architecture explained in a clear and concise way:
 
 ---
 
-### **Clean URLs and Error Handling (Lambda@Edge)**
+### **Rewriting URLs (Lambda@Edge)**
 
 A custom Python Lambda@Edge (Origin Request) function:
 
 * Rewrites URLs like `/posts` → `/posts/index.html`.
-* Ensures users never see AWS XML errors.
-* Serves a custom **404 page** through CloudFront.
 * Improves SEO and consistency.
 
 #### `AddIndexHtmlToDirectoriesEdge`

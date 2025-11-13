@@ -4,6 +4,7 @@ title = 'Cássio Gabriel'
 theme = 'typo'
 
 [taxonomies]
+category = 'categories'
 tag = 'tags'
 
 [params]
