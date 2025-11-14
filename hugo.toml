@@ -84,8 +84,9 @@ url = "https://github.com/CassivsGabriellis"
 
 # Syntax highlight on code blocks
 [markup]
-[markup.highlight]
-style = 'catppuccin-macchiato'
+  [markup.highlight]
+    noClasses = false
+    style = "catppuccin-macchiato"
 
 # Get Git info
 enableGitInfo = true
